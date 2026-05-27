@@ -1,0 +1,60 @@
+import type { Category } from "./types";
+
+export const categories: Category[] = [
+  {
+    id: "algebra",
+    name: "Algebra",
+    icon: "x",
+    color: "#2563eb",
+    darkColor: "#60a5fa",
+    description: "Equations, factoring, exponents, logarithms, and polynomials",
+  },
+  {
+    id: "geometry",
+    name: "Geometry",
+    icon: "△",
+    color: "#059669",
+    darkColor: "#34d399",
+    description: "Shapes, areas, volumes, and geometric theorems",
+  },
+  {
+    id: "trigonometry",
+    name: "Trigonometry",
+    icon: "θ",
+    color: "#d97706",
+    darkColor: "#fbbf24",
+    description: "Angles, identities, unit circle, and wave functions",
+  },
+  {
+    id: "calculus",
+    name: "Calculus",
+    icon: "∫",
+    color: "#dc2626",
+    darkColor: "#f87171",
+    description: "Derivatives, integrals, limits, and the fundamental theorem",
+  },
+  {
+    id: "linear-algebra",
+    name: "Linear Algebra",
+    icon: "M",
+    color: "#7c3aed",
+    darkColor: "#a78bfa",
+    description: "Matrices, vectors, determinants, and eigenvalues",
+  },
+  {
+    id: "probability",
+    name: "Probability",
+    icon: "P",
+    color: "#0891b2",
+    darkColor: "#22d3ee",
+    description: "Counting, distributions, expected values, and Bayes' theorem",
+  },
+  {
+    id: "number-theory",
+    name: "Number Theory",
+    icon: "#",
+    color: "#be185d",
+    darkColor: "#f472b6",
+    description: "Primes, divisibility, modular arithmetic, and sequences",
+  },
+];
