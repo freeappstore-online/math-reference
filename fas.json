@@ -1,0 +1,6 @@
+{
+  "appId": "math-reference",
+  "applicationRoot": "web",
+  "outputPath": "web/dist",
+  "buildCommand": "pnpm build"
+}
